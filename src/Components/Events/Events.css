@@ -1,0 +1,27 @@
+.event-component {
+    width: 583px;
+    box-shadow: 0px 0px 8px #afafaf;
+    padding: 15px 10px 10px 10px;
+}
+
+.event-component>button {
+    float: right;
+    margin: -10px 5px;
+}
+
+.event-component form {
+    margin: 0px 20px;
+}
+
+.event-component input {
+    margin: 0px 10px;
+}
+
+.event-headers {
+    margin: 20px 30px;
+}
+
+.event-header {
+    padding: 5px 85px 5px 5px;
+}
+

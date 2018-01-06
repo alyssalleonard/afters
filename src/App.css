@@ -1,0 +1,37 @@
+.heroImg {
+  background-color: #000422;
+  display: inline-block;
+  width: 100%;
+}
+
+.logo {
+  height: 400px;
+}
+
+.content {
+  padding: 0px 30px 30px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.events-frame {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.skeevers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+}
+
+.skeevers img {
+  margin: 0px 25px;
+  box-shadow: 0px 0px 8px #afafaf; 
+  height: 500px; 
+}

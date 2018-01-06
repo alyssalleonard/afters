@@ -1,0 +1,12 @@
+.fb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 50px;
+    padding: 25px;
+    box-shadow: 0px 0px 8px #afafaf;
+}
+
+.fb-img {
+    margin-bottom: 25px;
+}
