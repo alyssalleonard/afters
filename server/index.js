@@ -5,7 +5,7 @@ const app = express();
 const baseURL = '/api'
 const port = process.env.PORT || 3001;
 const eventsController = require('./controllers/eventsController');
-const token = 'nZ4FY_tXHnFkQF6SOUiSKG_ybJjuj8MkwV0coJ-0xIF3crDul8k8pbBrwPrcDn8W-SM74V0uAXZX-ilfzi_nJdNJJ8FtrecaMgk1AqK6mepUD1aYb24sF5941Lf3WXYx';
+const token = require('./config').token
 app.use(bodyParser.json());
 
 app.use(express.static( __dirname + '/../public/build'));
